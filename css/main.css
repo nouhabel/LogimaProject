@@ -3,11 +3,13 @@ body{width: 100%;font-weight:bold;font-family: Verdana, Geneva, sans-serif;backg
 .logo{width: 70%;}
 .position{margin-top: 5%;margin-bottom: 8%;text-align: center;
 line-height: 20px;}
-.size{font-size: 25px;margin-top: 200px;line-height: 1;}
+.size{font-size: 25px;margin-top: 170px;line-height: 1;}
 .center{margin:5% auto;}
 .left{ left:50%;}
 .right{ right:50%;}
-
+.row{
+  margin:0;
+}
     
 
 .btn{
@@ -63,4 +65,7 @@ line-height: 20px;}
     }
 .text{
 	color :#fff;
+}
+footer{
+  width : 100%;
 }
