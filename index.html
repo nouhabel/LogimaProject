@@ -1,32 +1,51 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+
+	<meta charset="utf-8" lang="ar">
 </head>
 <body>
 	<div class="container">
-		<h1>
-			<img src="images/logo.png" class="logo" />
-		</h1>
-		<div >
-			<p>إرشاد و توجيه</p>
-			<p>Informations et orientation</p>
-			<p>tamazight</p>
+		<div class="row">
+			<h1 class="col-md-4">
+				<img src="images/logo.png" class="logo" />
+			</h1>
+			<div class="col-md-4 position size">
+				
+				<p class="text">إرشاد و توجيه<br>
+					<hr width="50%" color="#fff"/>
+				<p class="text">Informations et orientation<br></p>
+				<hr width="50%" color="#fff"/>
+				 <p class="text">ⴼ ⵙⴷⵎⵍⴼⴷⵙⴷⵙ </p>
+				
+			</div>
+			<div class="col-md-4 position">
+				<p>المملكة المغربية المكتب الوطني للسلامة الصحية  للمنتجات الغدائية
+				 <br>Office Nationale de Securité Sanitaire des Produits Alimentaires, Royaume du Maroc</p>
+			</div>
 		</div>
-		<div>
-			<p>المملكة المغربية المكتب الوطني للسلامة الصحية  للمنتجات الغدائية</p>
-			<p>Royaume du Maroc Office Nationale de Securité Sanitaire des Produits Alimentaires</p>
-		</div>
-		<div>
-			<button type="button" class="btn btn-primary btn-lg ">class="container"class="container"</button>
-			<button type="button" class="btn btn-primary btn-lg ">Cliquez ici pour continuer en Français</button>
-			<button type="button" class="btn btn-primary btn-lg ">class="container"class="container"</button>
+		<div class="row center view overlay hm-white-slight">
+			<div class="hov col-md-4  "><a href="#" class="  btn btn-primary ">ⵙⴷⵎⵍⴼⴷⵙⴷⵙ<br>tamazight<br>tamazights </a ></div>
+			<div class="hov col-md-4 center "><a href="fr.html" class="  btn btn-primary mg-middle ">Cliquez ici<br> pour continuer en<br> Français </a ></div>
+			<div class="hov col-md-4 " ><a href="#"  class=" btn btn-primary "> اضغط<br>هنا للمتابعة<br> بالعربية</a ></div>
+			
+			
 		</div>
 	</div>
-	<script type="text/javascript" src="js/jquery.js"></script>
+<footer>
+	<img src="images/footer.png">
+</footer>
+<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/npm.js"></script>
+<script>
+$("a").hover(function (e) {
+    $(this).toggleClass('animated bounce', e.type === 'mouseenter');
+});
+</script>
 </body>
 </html>
