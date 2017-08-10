@@ -11,7 +11,9 @@ line-height: 20px;}
   margin:0;
 }
  
-
+.cHover{
+ color:  rgba(157, 193, 24, 0.74);
+}
 .btn{
   background: rgba(46, 109, 164, 0.75);
     display: inline-block;
@@ -27,12 +29,10 @@ line-height: 20px;}
   transition-duration: 0.4s;
   overflow: hidden;
   cursor: pointer;
-  
-.btn:hover{
-  background: rgba(156, 193, 23, 0.74);
-}
+
 
 }
+.btn-primary:hover{background:rgba(157, 193, 24, 0.7); border:none; transition:background 2s}
 .btn:after {
    border-radius: 50%;
     content: "";
